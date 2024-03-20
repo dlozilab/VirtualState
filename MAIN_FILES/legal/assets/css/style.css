@@ -2155,7 +2155,12 @@ section {
   font-size: 60px;
   line-height: 1;
   margin-bottom: 20px;
+<<<<<<< HEAD
   left: 30px;
+=======
+ 
+ 
+>>>>>>> 8093dcef70d51449b33d13bcdb0294dca09f6057
 }
 .feature-panel .feature--icon i {
   -webkit-transition: all .3s linear;
@@ -3078,6 +3083,7 @@ section {
   overflow: hidden;
   border-radius: 6px;
   position: relative;
+  height: 200px;
 }
 .blog-entry .entry--img img,
 .entry-related .entry--img img {
