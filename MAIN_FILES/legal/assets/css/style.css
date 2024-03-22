@@ -2900,7 +2900,7 @@ section {
   position: relative;
   padding-left: 50px;
 }
-.count-box .count-icon {
+/* .count-box .count-icon {
   color: #d8ae76;
   font-size: 76px;
   margin-bottom: 10px;
@@ -2908,7 +2908,7 @@ section {
   position: absolute;
   top: 0;
   left: 50px;
-}
+} */
 .count-box .count-content {
   padding-left: 65px;
 }

@@ -10837,3 +10837,11 @@ require('./polyfill-done.js');
 
 },{"./lib/core.js":94,"./lib/es6-extensions.js":95,"./polyfill-done.js":96,"asap":92}]},{},[2])(2)
 });
+
+function myMap() {
+    var mapProp = {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
