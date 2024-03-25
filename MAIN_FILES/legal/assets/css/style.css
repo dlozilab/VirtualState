@@ -883,7 +883,7 @@ section {
 /* Background Image */
 .bg-section {
   position: relative;
-  /* left: 100px; */
+  /* top: 130px; */
   overflow: hidden;
   z-index: 1;
   -webkit-background-size: cover;
