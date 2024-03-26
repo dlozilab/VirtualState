@@ -21,6 +21,7 @@
 	<link href="assets/css/external.css" rel="stylesheet">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">	
 	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="../legal/assets/css/custom.css">
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 	<!--[if lt IE 9]>
@@ -50,10 +51,10 @@
 					<span class="icon-bar"></span>
 					</button>
 					
-					<a class="logo" href="index-2.html">
+					<span class="logo" href="index-2.html">
 						<img class="logo-dark" src="./LOGO-removebg-preview.png" alt="appy Logo" style="width: 80px;">
 						<img class="logo-light" src="./LOGO-removebg-preview.png" alt="appy Logo" style="width: 80px;">
-					</a>
+					</span>
 					</div>
 					<div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
 						<ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
@@ -189,8 +190,7 @@
 					<p>Aimed at
 						promoting effective public participation through fighting idleness and disrespect together with
 						communities.</p>
-					<p>They educate youth on politics and encourages them to take action using political structuring and pick up where the government cannot.</p>
-					<p>The programme encourages communities to view themselves as a state and mimic precisely the structures of government such as; Virtual Cabinet and Virtual Parliament.</p>
+					<p>They educate youth on politics and encourages them to take action using political structuring and pick up where the government cannot and encourages communities to view themselves as a state and mimic precisely the structures of government such as; Virtual Cabinet and Virtual Parliament.</p>
 				</div>
 			</div>
 			<!-- .col-md-6 end -->
@@ -426,7 +426,8 @@
 				</div>
 				<div class="form-request">
 					<div class="row">
-						<form class="mb-0"  action="https://formspree.io/f/mayrddpk"
+						<!-- Remember to insert Mlumgisi's formspree link so that he can get emails directly -->
+						<form class="mb-0"  action="https://formspree.io/f/mayrddpk" 
 						method="POST" >
 							<div class="col-xs-12 col-sm-12 col-md-6">
 								<input type="text" class="form-control" name="your-name" placeholder="Your Name">
@@ -485,7 +486,7 @@
 							</div>
 							<!-- .col-md-12 end -->
 							<div class="col-xs-12 col-sm-12 col-md-6">
-								<input type="submit" class="btn btn--primary" value="Join">
+								<button class="btn btn--primary" onclick="myFunction()">join</button>
 							</div>
 							<!-- .col-md-6 end -->
 						</form>
@@ -495,7 +496,12 @@
 			<div class="col-xs-12 col-sm-12 col-md-5 pr-0 pl-0">
 				<div class="col-img">
 					<div class="bg-section">
-						<img src="./join.jpg" alt="Background" style="height: 500px;">
+						<img src="./join.jpg" alt="Background" style="height: 400px;">
+
+						
+<p id="demo"></p>
+
+
 					</div>
 				</div>
 			</div>
@@ -869,7 +875,8 @@
 						<ul class="list-unstyled mb-0">
 							<li><i class="fa fa-map-marker"></i> Sweetwaters</li>
 							<li><i class="fa fa-phone"></i> (+27) 78 602 6356</li>
-							<li><i class="fa fa-envelope-o"></i> mlungisip@live.co.za
+							<li><i class="fa fa-envelope-o"></i> mlungisip@live.co.za</li>
+						</ul>
 					</div>
 				</div><!-- .col-md-4 end -->
 			</div>
@@ -897,7 +904,6 @@
 		<script src="assets/js/plugins.js"></script>
 		<script src="assets/js/functions.js"></script>
 		<script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
-
-		<div id="googleMap" style="width:100%;height:400px"></div>
+		<script src="./assets/js/less.js"></script>
 </body>
 </html>
