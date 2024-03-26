@@ -1,0 +1,17 @@
+.count-content img {
+    margin-left: 15px;
+}
+
+.slide--action a{
+    background-color: #dbbd5b;
+    
+}
+
+.slide--action .btn--bordered{
+    color: white;
+}
+
+.btn{
+    background-color: #dbbd5b;
+}
+

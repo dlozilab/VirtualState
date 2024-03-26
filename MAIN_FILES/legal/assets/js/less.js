@@ -10845,3 +10845,10 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
+
+function myFunction() {
+    var txt;
+    if (confirm("Thank you for joining. You will receive an email shortly.")) {
+    }
+}
+

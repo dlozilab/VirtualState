@@ -2151,7 +2151,7 @@ section {
   position: relative;
 }
 .feature-panel .feature--icon {
-  color: #d8ae76;
+  color: #dbbd5b;
   font-size: 60px;
   line-height: 1;
   margin-bottom: 20px;
@@ -2988,7 +2988,7 @@ section {
 }
 .member .member-overlay .member-social {
   border-radius: 2px;
-  background-color: #d8ae76;
+  background-color: #033707;
   opacity: 0.9;
   width: 100%;
   height: 100%;
